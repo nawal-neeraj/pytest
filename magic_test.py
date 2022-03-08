@@ -18,3 +18,4 @@ def test_random():
     check = MagicMock()
     check(1,2,3)
     assert check == ANY
+
