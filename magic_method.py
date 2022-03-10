@@ -1,18 +1,18 @@
-class Callfunc:
+class MagicCallFunc:
    
     def __init__(self) -> None:
         pass
     
     def __call__(self, a, b):
          print(f"using call function {a + b}")
-         print(Callfunc.name)
+         print(MagicCallFunc.name)
     
     def display(self):
         
         print("member method")
         
 #Creating instance of class
-callinstance = Callfunc()
+callinstance = MagicCallFunc()
 
 #accessing __call__ method
 callinstance(2,3)
