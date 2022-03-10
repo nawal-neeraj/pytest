@@ -1,7 +1,7 @@
 import pytest
-from models.models import add_values
+from models.models import AddValues
 
-def sum_number(a = add_values.value_one, b = add_values.value_two):
+def sum_number(a = AddValues.value_one, b = AddValues.value_two):
     return a + b
 
 @pytest.mark.parametrize("a, b, expected", [(10, 10, 20), (10, 0, 10), (0, 0, 0), (10, -10, 0)])

@@ -1,5 +1,5 @@
 from pydantic import BaseModel
 
-class add_values(BaseModel):
+class AddValues(BaseModel):
     value_one = int
     value_two = int
