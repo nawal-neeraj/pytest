@@ -7,7 +7,7 @@ class product:
     
     random_value = 23
     
-    def production(self, a: int = 2):
+    def odd_even(self, a: int = 2):
         if a%2!=0:
             return "even"
         return "odd"
@@ -20,7 +20,7 @@ class product:
         
 
 @pytest.mark.asyncio
-def test_productionClass():
+def test_odd_even_check():
     check = MagicMock(return_value=24)
     prod_instance = product()
     val = prod_instance.production(check.return_value)
