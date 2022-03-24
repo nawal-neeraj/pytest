@@ -5,7 +5,7 @@ class BaseClass:
     def __init__(self):
         self.instance_varable = None
         
-    def show_variable(self,):
+    def show_variable(self):
         print(f"instance variable not updated: {self.instance_varable}")
         
     def show_class_variable(cls):

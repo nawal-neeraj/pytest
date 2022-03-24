@@ -12,7 +12,7 @@ class BaseClass:
         print(f"class variable update using class method: {cls._classvariable}")
         
     def update_instance_variable(self):
-        self.instance_varable = None
+        self.instance_varable = "Not updated"
         
         
     @classmethod
