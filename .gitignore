@@ -1,2 +1,7 @@
 .pytest_cache
-.*pyc
+*.pyc
+
+dict_crud/check/__pycache__/__init__.cpython-38.pyc
+__pycache__/*
+dict_crud/check/__pycache__/__init__.cpython-38.pyc
+dict_crud/check/__pycache__/dict.cpython-38.pyc
